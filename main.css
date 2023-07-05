@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.top h4 {
+  color: white;
+  margin-bottom: 1.8em;
+  padding-top: 1.2em;
+}
+
+.top .figure {
+  color: lightgray;
+  background: #940404;
+  padding: 2em 3em;
+  border-radius: 50%;
+}
+
+.top .figure .number {
+  font-size: 3em;
+}
+
+.top .text {
+  margin-top: .5em;
+  padding-bottom: 2em;
+  color: white;
+}
+
+.top .text p {
+  margin: .5em;
+}
+
+.bottom {
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  margin-top: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+
+.bottom p {
+  margin-bottom: 1em;
+}
+
+.bottom .item {
+  margin-bottom: 1.2em;
+  text-align: center;
+}
+
+.bottom .reaction {
+  background: pink;
+  padding: .6em;
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bottom .memory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f5e8ea;
+  padding: .6em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #caca08;
+}
+
+.bottom .verbal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #8fca8f;
+  padding: .6em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #04a104;
+}
+
+.bottom .visual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #7777d1;
+  padding: .6em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: blue;
+}
+
+.bottom .continue {
+  background: #9e0505;
+  color: white;
+  border-radius: 20px;
+  padding: .6em;
+  margin-bottom: 1.2em;
+}
+
+.bottom .continue a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom .continue a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=main.css.map */
